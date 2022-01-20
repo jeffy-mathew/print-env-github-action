@@ -9,6 +9,14 @@ inputs:
     description: 'arg2'
     required: true
     default: 'default2'
+  arg3:
+    description: 'arg3'
+    required: true
+    default: 'default3'
+  arg4:
+    description: 'arg4'
+    required: true
+    default: 'default4'  
 runs:
   using: 'docker'
   image: 'Dockerfile'
