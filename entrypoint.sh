@@ -1,4 +1,6 @@
 #!/bin/sh -l
 
-echo "rpmvers $1"
-echo "dbvers $2"
+echo "arg1 $1"
+echo "arg2 $2"
+echo "arg3 $3"
+echo "arg4 $4"
